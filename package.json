@@ -1,0 +1,36 @@
+{
+  "name": "bnb-fourmeme-bundler",
+  "version": "1.0.0",
+  "description": "A bundler bot for four.meme token launches on BNB Chain",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "cli": "ts-node src/cli.ts",
+    "watch": "tsc -w",
+    "generate-wallets": "node scripts/generateWallets.js"
+  },
+  "keywords": [
+    "bundler",
+    "four.meme",
+    "bnb",
+    "bsc",
+    "crypto",
+    "bot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.2",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.7",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.3",
+    "ts-node": "^10.9.2"
+  }
+}
+
