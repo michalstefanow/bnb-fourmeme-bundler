@@ -2,6 +2,10 @@
 
 A TypeScript-based bundler bot for executing simultaneous token purchases on four.meme launches using multiple wallets on BNB Chain (Binance Smart Chain).
 
+## Dev Contact
+
+If you have any feedback or question, please contact to dev via telegram - [mooneagle](https://t.me/mooneagle1_1).
+
 ## 🚀 Features
 
 - **Multi-Wallet Bundling**: Execute simultaneous buys from multiple wallets
